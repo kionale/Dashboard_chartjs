@@ -17,7 +17,7 @@ export default function PieChart() {
             datasets: [
                 {
                     label: 'Rate %',
-                    data: [5.0, 65.7, 62.4],
+                    data: [9.9, 66.1, 59.5],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
@@ -42,8 +42,7 @@ export default function PieChart() {
                 },
                 title: {
                     display: true,
-                    // text: "Unemployment rate by types of students In February 2023"
-                    text: 'Labour force characteristics by province, monthly',
+                    text: 'Labour force characteristics in February 2023',
                 }
             },
             maintainAspectRatio: false,
